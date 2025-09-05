@@ -16,4 +16,6 @@ Los iconos personalizados mejoran la navegación y apariencia visual de tu explo
 
 ## Enlace
 
-[VSCode Icons en Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+* [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+* [Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
