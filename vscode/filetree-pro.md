@@ -4,7 +4,7 @@
 
 ## ¿Cómo se ve?
 
-<img width="689" height="733" alt="image" src="https://github.com/user-attachments/assets/a5d07e70-623e-449b-b295-bdacc70cb173" />
+<img width="1026" height="848" alt="image" src="https://github.com/user-attachments/assets/c66d6527-afed-49d2-ad07-34bfff1bad27" />
 
 
 ## Instalación
