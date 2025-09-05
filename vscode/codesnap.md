@@ -4,8 +4,7 @@
 
 ## ¿Cómo se ve?
 
-![CodeSnap Ejemplo](https://github.com/adrianmcli/CodeSnap/raw/master/images/demo.gif)
-<!-- Puedes cambiar el enlace por tu propia captura de pantalla -->
+<img width="876" height="638" alt="image" src="https://github.com/user-attachments/assets/7300cf77-81d2-49ff-be82-f6aca697a970" />
 
 ## Instalación
 
@@ -16,4 +15,4 @@
 
 ## Enlace
 
-[CodeSnap en Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.codesnap)
+[CodeSnap en Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
