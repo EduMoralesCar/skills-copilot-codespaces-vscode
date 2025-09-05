@@ -4,8 +4,7 @@
 
 ## ¿Cómo se ve?
 
-![Ejemplo de Aura Theme](https://raw.githubusercontent.com/darshanbaral/aura-theme-vscode/main/assets/screenshot.png)
-<!-- Puedes cambiar el enlace por tu propia captura de pantalla si lo deseas -->
+<img width="754" height="430" alt="image" src="https://github.com/user-attachments/assets/2aaffc4a-d2aa-465e-9ab6-6434776200e6" />
 
 ## Instalación
 
