@@ -4,8 +4,8 @@
 
 ## ¿Cómo se ve?
 
-![File Tree Pro Ejemplo](https://raw.githubusercontent.com/hediet/vscode-file-tree/master/docs/screenshot.png)
-<!-- Puedes cambiar el enlace por tu propia captura de pantalla -->
+<img width="689" height="733" alt="image" src="https://github.com/user-attachments/assets/a5d07e70-623e-449b-b295-bdacc70cb173" />
+
 
 ## Instalación
 
@@ -16,4 +16,4 @@
 
 ## Enlace
 
-[File Tree Pro en Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-file-tree)
+[File Tree Pro en Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=0xTanzim.filetree-pro)
