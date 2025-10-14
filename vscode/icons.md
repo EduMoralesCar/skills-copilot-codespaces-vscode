@@ -4,8 +4,8 @@ Los iconos personalizados mejoran la navegación y apariencia visual de tu explo
 
 ## ¿Cómo se ve?
 
-![VSCode Icons Ejemplo](https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/images/screenshot.png)
-<!-- Puedes cambiar el enlace por tu propia captura de pantalla -->
+<img width="535" height="343" alt="image" src="https://github.com/user-attachments/assets/95724ead-5473-49a1-85af-b743443b98f9" />
+
 
 ## Instalación
 
