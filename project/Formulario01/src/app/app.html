@@ -1,0 +1,36 @@
+<h2 class="text-center text-primary mb-4">Formulario de Empleados</h2>
+
+<div class="mb-3">
+  <input type="text" [(ngModel)]="nuevo_empleado.nombre" placeholder="Ej: Juan" class="form-control">
+</div>
+<div class="mb-3">
+  <input type="text" [(ngModel)]="nuevo_empleado.apellido" placeholder="Ej: Perez" class="form-control">
+</div>
+<div class="mb-3">
+  <input type="text" [(ngModel)]="nuevo_empleado.servicio" placeholder="Ej: Ventas" class="form-control">
+</div>
+<div class="mb-3">
+  <input type="number" [(ngModel)]="nuevo_empleado.salario" placeholder="Ej: 3000" class="form-control">
+</div>
+<button (click)="agregarEmpleado()">Agregar Empleado</button>
+
+<hr>
+
+<h3>Lista de Empleados</h3>
+<table border="1" [width]="'100%'">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Servicio</th>
+      <th>Salario</th>
+    </tr>
+    <tr *ngFor="let emp of empleados">
+      <td>{{emp.nombre}}</td>
+      <td>{{emp.apellido}}</td>
+      <td>{{emp.servicio}}</td>
+      <td>{{emp.salario | currency:'USD':'symbol':'1.2-2'}}</td>
+    </tr>
+  </thead>
+
+</table>
