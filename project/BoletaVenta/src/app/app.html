@@ -1,0 +1,64 @@
+<h1 class="text-center text-primary mb-4 fw-bold">Boleta de Venta</h1>
+
+<div class="mb-3">
+  <label for="cliente" class="fw-bold">Cliente *</label>
+  <input type="text" [(ngModel)]="nueva_boleta.nombre_cliente" placeholder="EJ: Juan Pérez" class="form-control" />
+</div>
+<div class="mb-3">
+  <label for="producto" class="fw-bold">Producto *</label>
+  <input type="text" [(ngModel)]="nueva_boleta.nombre_producto" placeholder="EJ: Laptop" class="form-control" />
+</div>
+<div class="mb-3">
+  <label for="precio" class="fw-bold">Precio *</label>
+  <input type="number" [(ngModel)]="nueva_boleta.precio" placeholder="EJ: 1500" class="form-control" />
+</div>
+<div class="mb-3">
+  <label for="cantidad" class="fw-bold">Cantidad *</label>
+  <input type="number" [(ngModel)]="nueva_boleta.cantidad" placeholder="EJ: 2" class="form-control" />
+</div>
+
+<button class="btn btn-primary" (click)="agregar()">Agregar</button>
+
+<hr>
+
+<table border="1" [width]="'100%'">
+  <thead>
+    <tr>
+      <th>Cliente</th>
+      <th>Producto</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+      <th>Total</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of boleta; let i = index">
+      <td>{{ item.nombre_cliente }}</td>
+      <td>{{ item.nombre_producto }}</td>
+      <td>{{ item.precio | currency: 'S/ ' }}</td>
+      <td>{{ item.cantidad }}</td>
+      <td>{{ (item.precio * item.cantidad).toFixed(2) | currency: 'S/ ' }}</td>
+      <td><button class="btn btn-danger" (click)="eliminar(i)">Eliminar</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<table border="1" [width]="'50%'">
+  <h2 class="fw-bold text-center text-primary">Resumen de Venta</h2>
+  <hr>
+  <tr>
+    <td class="fw-bold mb-3">SubTotal:</td>
+    <td>{{ calcularTotal() | currency: 'S/ ' }}</td>
+  </tr>
+  <tr>
+    <td class="fw-bold mb-3">IGV (18%):</td>
+    <td>{{ calcularIGV() | currency: 'S/ ' }}</td>
+  </tr>
+  <tr>
+    <td class="fw-bold mb-3">Total:</td>
+    <td>{{ calcularTotal() + calcularIGV() | currency: 'S/ ' }}</td>
+</table>
+<hr>
