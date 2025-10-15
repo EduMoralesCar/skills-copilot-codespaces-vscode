@@ -1,0 +1,54 @@
+<h1 class="text-center text-primary mb-4 fw-bold">Universidad Tecnologica del Perú</h1>
+<h2 class="mb-3 fw-bold">Registro de Estudiantes</h2>
+
+<div class="mb-3">
+  <label class="form-label fw-bold" for="nombre">Nombre *</label>
+  <input class="form-control" type="text" placeholder="Ej: Juan" [(ngModel)]="nuevo_estudiante.nombre" />
+</div>
+<div class="mb-3">
+  <label class="form-label fw-bold" for="apellido">Apellidos *</label>
+  <input class="form-control" type="text" placeholder="Ej: Pérez" [(ngModel)]="nuevo_estudiante.apellido" />
+</div>
+<div class="mb-3">
+  <label class="form-label fw-bold" for="dni">DNI *</label>
+  <input class="form-control" type="number" placeholder="Ej: 72080490" [(ngModel)]="nuevo_estudiante.dni" />
+</div>
+<div class="mb-3">
+  <label class="form-label fw-bold" for="codigo">Código *</label>
+  <input class="form-control" type="text" placeholder="Ej: U23222093" [(ngModel)]="nuevo_estudiante.codigo" />
+</div>
+<div class="mb-3">
+  <label class="form-label fw-bold" for="carrera">Carrera *</label>
+  <input class="form-control" type="text" placeholder="Ej: Ingeniería de Sistemas"
+    [(ngModel)]="nuevo_estudiante.carrera" />
+</div>
+
+<button class="btn btn-primary" (click)="guardar()">Guardar</button>
+
+<hr>
+
+<table border="1" [width]="'100%'">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellidos</th>
+      <th>DNI</th>
+      <th>Código</th>
+      <th>Carrera</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of estudiante; let i = index">
+      <td>{{ item.nombre }}</td>
+      <td>{{ item.apellido }}</td>
+      <td>{{ item.dni }}</td>
+      <td>{{ item.codigo }}</td>
+      <td>{{ item.carrera }}</td>
+      <td>
+        <button class="btn btn-danger mx-2" (click)="eliminar(i)">Eliminar</button>
+        <button class="btn btn-success" (click)="actualizar(i)">Actualizar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
