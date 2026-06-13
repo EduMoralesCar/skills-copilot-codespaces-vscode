@@ -53,8 +53,4 @@ Aquí pongo en práctica:
 - [Guía oficial de Codespaces](https://docs.github.com/en/codespaces)
 - [Repositorio base de la clase](https://github.com/github-education-experiences/copilot-codespaces-vscode)
 
----
 
-
-¡Explora, aprende y lleva tu desarrollo al siguiente nivel con las herramientas más modernas!  
-🌟 Si te resulta útil, no olvides dejar una estrella ⭐
