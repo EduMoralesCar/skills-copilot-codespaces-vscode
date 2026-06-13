@@ -1,4 +1,4 @@
-# 🚀 skills-copilot-codespaces-vscode
+# 🚀 Skills Copilot en Codespaces con vscode
 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
