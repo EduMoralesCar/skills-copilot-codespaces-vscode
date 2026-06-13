@@ -55,11 +55,6 @@ Aquí pongo en práctica:
 
 ---
 
-## 👨‍💻 Autor
-
-- [EduMoralesCar](https://github.com/EduMoralesCar)
-
----
 
 ¡Explora, aprende y lleva tu desarrollo al siguiente nivel con las herramientas más modernas!  
 🌟 Si te resulta útil, no olvides dejar una estrella ⭐
